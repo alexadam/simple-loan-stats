@@ -69,7 +69,7 @@ const LoansView = (props: ILoansViewProps) => {
       <div className="loan-stats">
 
         <div className="loan-stats-cell">
-          <div className='label-text'>You monthly payment is <span className="computed-value">{stdMonthlyPayment}</span> or <span className="computed-value">{stdMonthlyPaymentPercent}%</span> of income</div>
+          <div className='label-text'>Your monthly payment is <span className="computed-value">{stdMonthlyPayment}</span> or <span className="computed-value">{stdMonthlyPaymentPercent}%</span> of income</div>
         </div>
 
         <div className="loan-stats-cell">
