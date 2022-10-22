@@ -1,0 +1,78 @@
+@import '../global.scss';
+
+.number-cells {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-content: center;
+  height: auto;
+}
+
+.number-cells-menu-button {
+  background-color: rgba(0, 0, 0, 0);
+  border: 0;
+  outline: 0;
+  padding: 3px;
+  cursor: pointer;
+}
+.number-cells-menu-button:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.nr-cell {
+  width: 100%;
+  height: auto;
+  display: flex; 
+  flex-direction: column;
+  margin-left: 2px;
+  margin-right: 1px;
+}
+
+.number-cells-input {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  padding: 8px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 3px;
+  font-size: $labelFontSize;
+  font-family: 'Anton', sans-serif;
+  font-family: 'Oswald', sans-serif;
+  width: 150px;
+}
+
+.nr-cell-button {
+  background-color: rgba(0, 0, 0, 0);
+  border: 0;
+  outline: 0;
+  padding: 3px;
+  cursor: pointer;
+  height: 20px;
+  text-align: center;
+}
+.nr-cell-button:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.nr-cell-label {
+  border-radius: 3px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  padding: 3px;
+  font-size: $labelFontSize;
+  color: rgba(0, 0, 0, 0.8);
+  font-family: sans-serif;
+  font-family: 'Anton', sans-serif;
+  font-family: 'Oswald', sans-serif;
+  text-align: center;
+  background-color: $labelColor;
+}
+
+.nr-cell-input-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.number-cell-dot {
+  margin-left: 3px;
+  margin-right: 3px;
+  font-size: $fontSize;
+}
