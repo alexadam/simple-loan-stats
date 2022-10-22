@@ -5,7 +5,7 @@ Simple loan payment calculator & stats
 
 <img src="https://github.com/alexadam/simple-loan-stats/blob/main/imgs/s1.png?raw=true" width="800">
 
-## [Try it] https://alexadam.dev/loans
+## [Try it](https://alexadam.dev/loans)
 
 ## How to run it
 
